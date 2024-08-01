@@ -1,5 +1,5 @@
 # random
-python
+
 from collections import Counter # Импортируем библиотеку для подсчета, подсчет элементов Counter(randomizer_list)
 
 randomizer_list = [] # Создаем пустой лист
