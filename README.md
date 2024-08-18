@@ -4,7 +4,7 @@ from collections import Counter # Импортируем библиотеку д
 
 randomizer_list = [] # Создаем пустой лист
 
-for i in range(10000): # Пишем функцию, в дальнейшим будем ее проходить
+for i in range(10000): # Пишем функцию
     randomizer_list.append(random.choice(name_winners)) # Добавляем в наш рандомный лист с каждой итерацией случайное имя из списка победителей
 
 for i in name_winners: # Выведем следующим циклом все имена и сколько раз они попадались
